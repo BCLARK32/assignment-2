@@ -1,11 +1,38 @@
-<!DOCTYPEhtml>
-<html>
+<!DOCTYPE html>
+<html ;ang="en">
 <head>
-<scriptype="text/javascript">
-</script>
-<styletype="text/css>
-</style>
+    <style type="text/css">
+        P{
+            color: blue;
+            font-size: x-large;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+    <script type="text/javascript">
+             var countDown = 10;
+            document.gettlmentById{"countdownlable"}.innerHTML = countDown;
+
+        function runCountdown ()
+        {
+            countDown --;
+            if{countDown != 0 }
+               {
+                 document.getllemenById{"countdownlable"}.innerHTML = "Blast Off";
+               }
+                 else
+                {
+                document.gettlemenById{"blastofflable"}.innerHTML = "Blast Off";
+                }
+        }
+   </script>
+     <!-- Hi -->
+    <title>Document</title>
 </head>
 <body>
+         <img src="<https://786news.com/wp-content/uploads/2020/02/UAT1.jpg>" style="width: 100px;height: 100px;">
+         <p id="countdownlable" ></p>
+         <p id="blastofflable" ></p>
+         <button id="b" onclick = "runCountdown{}" >Start</button>
 </body>
 </html>
